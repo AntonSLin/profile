@@ -25,9 +25,9 @@ p {
   font-family: 'Montserrat', sans-serif;
 }
 
-.container {
-  width: auto;
-  margin: 0 auto;
+.left-align {
+  text-align: left;
+  padding: 0;
 }
 
 .square-image {
@@ -45,7 +45,7 @@ p {
 }
 
 .section-white {
-  margin: 15px auto;
+  margin: 15px 25px 15px 0;
   background-color: #F0F3F5;
   border-radius: 10px;
   padding: 15px 0;
@@ -63,3 +63,25 @@ p {
 .list-inline {
   padding: 0;
 }
+
+.sidebar {
+  position: fixed;
+  left: 0;
+  width: 150px;
+  top: 0;
+  bottom: 0;
+  overflow-x: hidden;
+  background-image: url("../images/jet.jpg");
+  background-position: center;
+}
+
+.page-content {
+  margin-left: 150px;
+  margin-top: 0;
+}
+
+#join-me {
+  color: red;
+}
+
+
